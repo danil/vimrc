@@ -50,6 +50,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'junegunn/fzf.vim'
   Plug 'tpope/vim-fugitive'
   Plug 'tpope/vim-obsession'
+  Plug 'vim-airline/vim-airline'
 
 call plug#end()
 
