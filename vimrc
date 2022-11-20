@@ -25,6 +25,9 @@ set number
 " Show the mode you are on the last line.
 set showmode
 
+" Incremental search.
+set incsearch
+
 " Show matching words during a search.
 set showmatch
 
@@ -44,7 +47,9 @@ set wildmode=list:longest
 
 call plug#begin('~/.vim/plugged')
 
+  Plug 'ctrlpvim/ctrlp.vim'
   Plug 'dense-analysis/ale'
+  Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
   Plug 'jlanzarotta/bufexplorer'
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'junegunn/fzf.vim'
@@ -55,9 +60,5 @@ call plug#begin('~/.vim/plugged')
 call plug#end()
 
 " }}}
-
-command! FZFMru call fzf#run({
-\  'source': v:oldfiles,
-\  'sink':   'e'})
 
 ":hi CursorLine gui=underline cterm=underline
