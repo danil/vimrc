@@ -47,15 +47,15 @@ set wildmode=list:longest
 
 call plug#begin('~/.vim/plugged')
 
-  Plug 'ctrlpvim/ctrlp.vim'
-  Plug 'dense-analysis/ale'
-  Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-  Plug 'jlanzarotta/bufexplorer'
-  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-  Plug 'junegunn/fzf.vim'
-  Plug 'tpope/vim-fugitive'
-  Plug 'tpope/vim-obsession'
-  Plug 'vim-airline/vim-airline'
+     Plug 'ctrlpvim/ctrlp.vim'
+     Plug 'dense-analysis/ale'
+     Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+     Plug 'jlanzarotta/bufexplorer'
+     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+     Plug 'junegunn/fzf.vim'
+     Plug 'tpope/vim-fugitive'
+     Plug 'tpope/vim-obsession'
+     Plug 'vim-airline/vim-airline'
 
 call plug#end()
 
