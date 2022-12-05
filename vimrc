@@ -51,6 +51,7 @@ call plug#begin('~/.vim/plugged')
      Plug 'dense-analysis/ale'
      Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
      Plug 'jlanzarotta/bufexplorer'
+     Plug 'jparise/vim-graphql'
      Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
      Plug 'junegunn/fzf.vim'
      Plug 'tpope/vim-fugitive'
