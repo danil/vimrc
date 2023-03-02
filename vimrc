@@ -43,6 +43,11 @@ set wildmenu
 " Make wildmenu behave like similar to Bash completion.
 set wildmode=list:longest
 
+" invoke with '-'
+nmap  -  <Plug>(choosewin)
+" if you want to use overlay feature
+let g:choosewin_overlay_enable = 1
+
 " PLUGINS ---------------------------------------------------------------- {{{
 
 call plug#begin('~/.vim/plugged')
@@ -57,6 +62,7 @@ call plug#begin('~/.vim/plugged')
      Plug 'kristijanhusak/vim-dadbod-ui'
      Plug 'lifepillar/pgsql.vim'
      Plug 'shougo/junkfile.vim'
+     Plug 't9md/vim-choosewin'
      Plug 'tpope/vim-dadbod'
      Plug 'tpope/vim-fugitive'
      Plug 'tpope/vim-obsession'
