@@ -50,6 +50,7 @@ call plug#begin('~/.vim/plugged')
      Plug 'ctrlpvim/ctrlp.vim'
      Plug 'dense-analysis/ale'
      Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+     Plug 'ivalkeen/vim-simpledb'
      Plug 'jlanzarotta/bufexplorer'
      Plug 'jparise/vim-graphql'
      Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
