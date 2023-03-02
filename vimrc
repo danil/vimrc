@@ -50,11 +50,14 @@ call plug#begin('~/.vim/plugged')
      Plug 'ctrlpvim/ctrlp.vim'
      Plug 'dense-analysis/ale'
      Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-     Plug 'ivalkeen/vim-simpledb'
      Plug 'jlanzarotta/bufexplorer'
      Plug 'jparise/vim-graphql'
      Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
      Plug 'junegunn/fzf.vim'
+     Plug 'kristijanhusak/vim-dadbod-ui'
+     Plug 'lifepillar/pgsql.vim'
+     Plug 'shougo/junkfile.vim'
+     Plug 'tpope/vim-dadbod'
      Plug 'tpope/vim-fugitive'
      Plug 'tpope/vim-obsession'
      Plug 'vim-airline/vim-airline'
