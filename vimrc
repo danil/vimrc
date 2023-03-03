@@ -65,7 +65,6 @@ nnoremap <silent> <C-W>a :ZoomToggle<CR>
 
 call plug#begin('~/.vim/plugged')
 
-     Plug 'ctrlpvim/ctrlp.vim'
      Plug 'dense-analysis/ale'
      Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
      Plug 'jlanzarotta/bufexplorer'
