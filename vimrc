@@ -1,5 +1,8 @@
 " This file is part of Danil <danil@kutkevich.org> home.
 
+" Map the leader key to a comma.
+let mapleader = ','
+
 " Disable compatibility with vi which can cause unexpected issues.
 set nocompatible
 
